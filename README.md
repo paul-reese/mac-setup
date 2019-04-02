@@ -1,2 +1,2 @@
 # mac-setup
-`curl https://raw.githubusercontent.com/saravanakumar-periyasamy/mac-setup/master/setup.sh | sh`
+`curl https://raw.githubusercontent.com/phopper-pivotal/mac-setup/master/setup.sh | sh`
