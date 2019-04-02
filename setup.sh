@@ -1,26 +1,41 @@
 #!/usr/bin/env bash
 
+xcode-select --install
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+
+brew doctor
 
 brew update 
 brew tap caskroom/cask
 brew tap cloudfoundry/tap
+brew tap AdoptOpenJDK/openjdk
 
+brew cask install 1password
+brew cask install adoptopenjdk
+brew cask install alfred
 brew cask install atom
 brew cask install cf-cli
-brew cask install google-chrome
+#brew cask install google-chrome
 brew cask install google-cloud-sdk
-brew cask install google-backup-and-sync
+#brew cask install google-backup-and-sync
 brew cask install clipy
 brew cask install docker
+brew cask install docker-toolbox
+brew cask install insomnia
+brew cask install java
 brew cask install minikube
-brew cask install slack
+#brew cask install slack
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 brew cask install sourcetree
 brew cask install skitch
-brew cask install insomnia
+brew cask install spectacle
+brew cask install sublime-text
+brew cask install totalfinder
 brew cask install visual-studio-code
 
 brew install fish
@@ -40,6 +55,9 @@ brew install telnet
 brew install vagrant-completion
 brew install npm
 brew install python
+brew install tree
+brew install vim
+brew install zsh
 
 npm install -g grpcc
 
