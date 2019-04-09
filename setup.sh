@@ -12,6 +12,7 @@ brew update
 brew tap caskroom/cask
 brew tap cloudfoundry/tap
 brew tap AdoptOpenJDK/openjdk
+brew tap starkandwayne/cf
 
 brew cask install 1password
 brew cask install adoptopenjdk
@@ -50,6 +51,7 @@ brew install wget
 brew install watch
 brew install jq
 brew install awscli
+brew install om
 brew install hugo
 brew install telnet
 brew install vagrant-completion
